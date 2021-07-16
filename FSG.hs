@@ -158,7 +158,6 @@ graphsCouldBeTheSame g1 g2 = (checkNumberVertices g1 g2) && (checkCycles g1 g2) 
 createGraphsOfKValue :: Int -> [([String], Graph)]
 createGraphsOfKValue k = map (\set -> (set, constructGraph set)) $ getSetsOfForbiddenWords (k+1)
 
--- Double check this is for digraphs and not just graphs?
 myIsIsomorphic :: Graph -> Graph -> Bool
 myIsIsomorphic g1 g2 = G2.isIsomorphic g1' g2'
 	where 
