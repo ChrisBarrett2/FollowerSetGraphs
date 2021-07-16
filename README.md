@@ -10,7 +10,7 @@ Instructions:
 How to read the outputs:
 
 There are two sets of outputs:
-(a) Numbered lines (1, 2, 3 etc.) denoting each node.
+(a) Numbered lines (1, 2, 3, etc.) denoting each node.
 Every node also carries the labels of the related follower sets.
 (b) Triples (from, to, label) denoting the source the range and the label of each edge.
 
